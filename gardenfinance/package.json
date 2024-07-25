@@ -1,0 +1,18 @@
+{
+  "name": "btc-to-wbtc-swap",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "node src/backend/index.js",
+    "start:frontend": "cd src/frontend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "dependencies": {
+    "@catalogfi/wallets": "^1.0.0",
+    "@gardenfi/orderbook": "^1.0.0",
+    "@gardenfi/core": "^1.0.0",
+    "ethers": "^5.0.0",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "concurrently": "^6.2.1"
+  }
+}
