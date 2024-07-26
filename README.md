@@ -9,7 +9,7 @@
  Clone the repository:
    ```sh
    git clone <repository-url>
-   cd btc-to-wbtc-swap
+   cd gardenfinance
 
 
 
